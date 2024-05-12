@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="./css/indexCss.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="../img/513893.png" type="image/x-icon">
+  <title>FShop</title>
+</head>
+
+<body>
+  <!-- header-part -->
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-3 py-3 logo">
+          <a href="#home"><i class="fa-thin fa-f"><b>shop</b></i></a>
+        </div>
+
+        <div class="col-md-6 py-3 nav text-center d-flex justify-content-between">
+          <a href="#newCollection" class="nav-item text-uppercase">new collection</a>
+          <a class="nav-item text-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            fshop
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Áo</a></li>
+            <li><a class="dropdown-item" href="#">Quần</a></li>
+            <li><a class="dropdown-item" href="#">Áo Khoác</a></li>
+          </ul>
+          <a href="#freeLance" class="nav-item text-uppercase">freelance[for her]</a>
+          <a href="./page/store-page.html" class="nav-item text-uppercase">store</a>
+        </div>
+
+        <div class="col-md-3 py-3 social-icons text-end">
+          <a href="#search" class="me-3" id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="#user" class="me-3" id="user-icon"><i class="fa-solid fa-user"></i></a>
+          <a href="#heart" class="me-3"><i class="fa-regular fa-heart"></i></a>
+          <a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="form-search">
+    <p class="text-center">Tìm Kiếm</p>
+    <hr>
+    <form method="" class="text-center">
+      <input type="text" class="search" id="search" placeholder="Tìm kiếm sản phẩm">
+      <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </form>
+  </div>
+
+  <div class="form-login">
+    <p class="text-center">Đăng nhập</p>
+    <hr>
+    <form method="get" class="text-center">
+      <input type="text" placeholder="Email">
+      <input type="text" placeholder="Password">
+      <button class="btn-login">GO</button>
+      <a href="./page/login.html">Register</a>
+    </form>
+  </div>
+
+
+  <!-- For-banner-hero -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/for-banner/banner_hero_1.webp" class="d-block w-100" alt="First slide" />
+      </div>
+      <div class="carousel-item">
+        <img src="./img/for-banner/banner_hero_2.webp" class="d-block w-100" alt="Second slide" />
+      </div>
+      <div class="carousel-item">
+        <img src="./img/for-banner/banner_hero_3.webp" class="d-block w-100" alt="Third slide" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- for-banner-hero-reposive-for-ipad -->
+  <div class="row banner-hero-ipad">
+    <div class="col banner-hero d-md-none">
+      <img src="./img/img_5708_97cf5e7d815b4215a1be66aee6ef9c5f.webp" alt="" />
+    </div>
+  </div>
+
+  <!-- img-intro-shop -->
+
+  <section class="img-intro py-3">
+    <div class="container">
+      <div class="row align-items-center py-3 justify-content-center">
+        <div class="col-md-4">
+          <img src="./img/for-banner/banner_hero_1.webp" alt="nguoi mau 1" class="img-fluid" />
+        </div>
+        <div class="col-md-4">
+          <img src="./img/for-banner/banner_hero_2.webp" alt="nguoi mau 2" class="img-fluid" />
+        </div>
+        <div class="col-md-4">
+          <img src="./img/for-banner/banner_hero_3.webp" alt="nguoi mau 3" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- collection-clother-of-shopping -->
+  <section class="section-collection py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 wrapper-product">
+          <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-6 product-form py-3">
+              <div class="img">
+                <img src="./img/product/banner_vuong_menu_3-100_72671f7b58b2404593c38468f5b546fe.webp" alt="product-1"
+                  class="img-fluid" />
+              </div>
+              <div class="product-detail py-3">
+                <p class="price-product">500.000vnd</p>
+                <h3 class="name-product">Áo Thun TS24SS04C-RGUS</h3>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-6 product-form py-3">
+              <div class="img">
+                <img src="./img/product/banner_vuong_menu_3-100_72671f7b58b2404593c38468f5b546fe.webp" alt="product-2"
+                  class="img-fluid" />
+              </div>
+              <div class="product-detail py-3">
+                <p class="price-product">500.000vnd</p>
+                <h3 class="name-product">Áo Thun TS24SS04C-RGUS</h3>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-6 product-form py-3">
+              <div class="img">
+                <img src="./img/product/banner_vuong_menu_3-100_72671f7b58b2404593c38468f5b546fe.webp" alt="product-1"
+                  class="img-fluid" />
+              </div>
+              <div class="product-detail py-3">
+                <p class="price-product">500.000vnd</p>
+                <h3 class="name-product">Áo Thun TS24SS04C-RGUS</h3>
+              </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-6 product-form py-3">
+              <div class="img">
+                <img src="./img/product/banner_vuong_menu_3-100_72671f7b58b2404593c38468f5b546fe.webp" alt="product-1"
+                  class="img-fluid" />
+              </div>
+              <div class="product-detail py-3">
+                <p class="price-product">500.000vnd</p>
+                <h3 class="name-product">Áo Thun TS24SS04C-RGUS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Feature Collection Image -->
+        <div class="col-md-6 cool-ngau">
+          <img src="img/for-banner/banner_doc-100_6f2a9e1dc9af4659b8e8b6eb88847329.webp" alt="this is img of banner-doc"
+            class="img-fluid" />
+        </div>
+      </div>
+      <!-- Button Show All Products -->
+      <div class="row mt-3">
+        <div class="col-md-6 text-center">
+          <button class="btn-show-product">XEM TẤT CẢ SẢN PHẨM</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- img-introduce-2-part -->
+  <section class="img-intro-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 img-banner-vuong">
+          <img src="./img/img-intro-2/banner_vuong-100_22d376fc6bf747b88fbf7e3959e6b59f.webp" class="img-fluid" alt=""
+            width="615" height="600" />
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./img/img-intro-2/banner_vuong_menu_1-100_532583f6458c4beaa9884816271162a7.webp"
+                class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-6">
+              <img src="./img/img-intro-2/banner_vuong_menu_2-100_8de4eae6976b418fa072676d8c360e66.webp"
+                class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-6">
+              <img src="./img/img-intro-2/banner_vuong_menu_3-100_72671f7b58b2404593c38468f5b546fe (1).webp"
+                class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-6">
+              <img src="./img/img-intro-2/banner_vuong_menu_4-100_a61b23f4259843ca9acf160b1596fa1d.webp"
+                class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- intro-shop-part -->
+  <section class="intro-shop py-5">
+    <div class="container">
+      <!-- logo-shop -->
+      <div class="logo-ngang text-center">
+        <img src="./img/logo/logo-ngang-03-20200715044524.png" class="img-fluid" alt="" width="400" height="400" />
+      </div>
+      <!-- intro-part -->
+      <div class="intro-part py-3">
+        <p>
+          Với thiết kế đơn giản nhưng tinh tế, đồng thời trang phục Freelancer
+          mang đến cho người mặc những ưu điểm vượt bậc: . Được tạo kiểu để
+          khéo léo che đi những khuyết điểm trên cơ thể . Có thể mix-match
+          biến hóa nhiều kiểu mặc chỉ từ những items quen thuộc . Luôn thời
+          trang và không bao giờ lỗi mốt . Giá hợp lý cho sản phẩm chất lượng
+          tuyệt vời . Tiết kiệm thời gian trong việc giặt ủi, phối đồ, cực dễ
+          mặc và phù hợp với mọi phong cách Một Freelancer HOÀN TOÀN MỚI đang
+          chờ bạn khám phá!
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="./img/sanphamnho/banner_fl_1-100_053281f29ae44b51a9043a35bf03ece9.webp" class="img-fluid"
+                alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="./img/sanphamnho/banner_fl_2-100_a8d9ec6311594bf382a58cabaf075b8e.webp" class="img-fluid"
+                alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="./img/sanphamnho/banner_fl_3-100_c994f27130914357a97388798a197382.webp" class="img-fluid"
+                alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="./img/sanphamnho/banner_fl_4-100_33a85211f1534164b14556f0d4a0edbe.webp" class="img-fluid"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- shop-system -->
+  <section class="shop-system">
+    <div class="container">
+      <div class="row system-details text-center align-items-center py-5">
+        <div class="col-md-6 align-self-center">
+          <div class="wrapper-content">
+            <h3 class="text-uppercase">Hệ thống cửa hàng</h3>
+          </div>
+          <div class="paragraph">
+            <p>
+              Hiện nay thương hiệu FSHOP & FREELANCER đã có mặt tại hầu hết
+              các tỉnh, thành phố trên toàn quốc. Không gian mua sắm thời
+              trang hàng hiệu đẳng cấp, sang trọng nhưng cũng không kém phần
+              thoải mái, tiện nghi là điều quý khách hàng sẽ cảm nhận được khi
+              ghé thăm bất cứ cửa hàng nào của Fshop.
+            </p>
+          </div>
+          <div class="btn-address">
+            <button class="btn-shop-system text-uppercase">
+              Địa chỉ cửa hàng
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BOdUFo1JRLs?autoplay=1" width="500"
+              height="300" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- for-footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center footer-content">
+        <div class="col-md-3 py-3">
+          <div class="logo">
+            <i class="fa-thin fa-f"><b>shop</b></i>
+            <img src="./img/logo/footer_logo_2_1b1de8ece9924b82bc1981c72fa5cb8f.webp" alt="this is footer logo"
+              width="100" height="100" />
+          </div>
+        </div>
+        <div class="col-md-6 py-3 footer-content1">
+          <ul>
+            <li><span>Công Ty: </span> TNHH T.M.G Mã Số Thuế: 0302966294</li>
+            <li>
+              <span>Địa chỉ: </span> 88 Nguyễn Đức Trung, Phường Thanh Khê
+              Đông, Quận Thanh Khê, TP. ĐN
+            </li>
+            <li><span>Email: </span> fshopbuadinh@gmail.com</li>
+            <li><span>Hotline: </span> 0123456789</li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-center d-flex justify-content-between">
+          <a><img src="./img/footer-logo/facebook_e3e340acee344ebd8bb196d37d0cef87.webp" class="img-fluid" alt=""
+              width="30" height="30" /></a>
+          <a><img src="./img/footer-logo/momo_logo_63183e1975424c0aade4b84e605ae0a2.webp" class="img-fluid" alt=""
+              width="30" height="30" /></a>
+          <a><img src="./img/footer-logo/shoppe-pay.webp" class="img-fluid" alt="" width="30" height="30" /></a>
+          <a><img src="./img/footer-logo/vnp_322d4deedfa64e64a03900c8341c0317.webp" class="img-fluid" alt="" width="30"
+              height="30" /></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Copyright © 2024 Fshop & Freelancers. Powered by
+          <a href="https://fpt.com/">FPT</a>.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

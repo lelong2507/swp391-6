@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 100%;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #151515;
+}
+.header {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  /* z-index: 1000; */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo a:hover {
+  color: #ae1a1a;
+  font-size: 24px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #151515;
+  letter-spacing: 2px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #151515;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  color: #cb3030;
+}
+
+.system {
+  background-color: #cb3030;
+}
+
+.system-content {
+  padding: 20px 30px;
+}
+.system-content a {
+  text-decoration: none;
+  color: white;
+}
+.system-content a:hover {
+  color: #000000;
+}
+
+/* footer-css-part */
+.footer .container {
+  max-width: 100%;
+  background-color: #000000;
+}
+
+.footer .logo {
+  padding: 20px 20px;
+}
+
+.footer .logo i {
+  padding-right: 50px;
+}
+
+.footer-content {
+  color: #fff;
+}
+
+.footer-content1 {
+  width: 100px;
+}
+
+.footer-bottom {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-bottom a:hover {
+  color: red;
+}
+
+.store-list .city .special {
+  color: red;
+}
+
+.store-have {
+  margin-left: 50px;
+}
+
+.city-heading{
+    color: red;
+}
