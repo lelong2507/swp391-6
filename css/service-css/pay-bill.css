@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 100%;
+}
+@keyframes intro-begin {
+  0% {
+    top: -300px;
+  }
+
+  50% {
+    top: 50px;
+  }
+  75% {
+    top: -500px;
+  }
+  100% {
+    top: -800px;
+    display: none;
+  }
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ffdb5c;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #234bbb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header .hambuger-logo {
+  display: none;
+}
+
+.header .logo a:hover {
+  color: #5ab2ff;
+  font-size: 24px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #ffdb5c;
+  letter-spacing: 2px;
+}
+
+.social-icons a:hover {
+  color: #5ab2ff;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffdb5c;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  color: #fff;
+}
+
+.form-search {
+  display: none;
+}
+
+.form-search.active {
+  display: block;
+}
+
+.form-search i {
+  color: #000000;
+}
+
+.form-search {
+  position: fixed;
+  top: 50px;
+  left: 80%;
+  transform: translateX(-50%);
+  display: none;
+  width: 300px;
+  height: 150px;
+  background-color: #ffffff;
+  z-index: 1001;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-login {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  z-index: 1001;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-login input[type="text"],
+.form-login button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-login button {
+  background-color: rgb(30, 12, 223);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-login button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.form-login.active {
+  display: block;
+}
+
+.form-login a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.form-login a:hover {
+  color: #000000;
+}
+
+.main-content {
+  margin-top: 80px;
+}
+.main-content .container .text-heading {
+  text-align: center;
+}
+
+.main-content .content-details .content {
+  padding-top: 50px;
+}
+
+.content table {
+  text-align: center;
+}
+
+footer .container {
+  max-width: 100%;
+  background-color: #456bd9;
+}
+
+.footer .logo {
+  padding: 20px 20px;
+}
+
+.footer .logo i {
+  padding-right: 50px;
+}
+
+.footer-content {
+  color: #ffdb5c;
+}
+
+.footer-content1 {
+  width: 100px;
+}
+
+.footer-bottom {
+  color: #ffdb5c;
+  text-align: center;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #ffdb5c;
+  text-align: center;
+}
+
+.footer-bottom a:hover {
+  color: red;
+}
